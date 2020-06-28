@@ -27,6 +27,10 @@ public class BlogPost {
     }
 
     // getters and setters
+
+    public Long getId() {
+        return id;
+    }
     
     public String getTitle() {
         return title;
@@ -51,6 +55,7 @@ public class BlogPost {
     public void setBlogEntry(String blogEntry) {
         this.blogEntry = blogEntry;
     }
+
 
     // to string method
     @Override

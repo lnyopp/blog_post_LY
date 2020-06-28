@@ -1,0 +1,43 @@
+html {
+    background-color: #eee;
+    padding: 0.5em 1em;
+}
+
+h1,h2,h3,h4 {
+    display: block;
+}
+
+form {
+    display: block;
+}
+
+
+input[type=text], #blogTitle, #blogAuthor {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+
+}
+
+textArea, #blogText {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.row{
+
+    margin: 10px;
+}
+
+
